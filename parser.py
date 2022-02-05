@@ -5,8 +5,6 @@ import functions
 
 # Enter the name of the pgn file to parse. Make sure it is in the same directory as the Parser.
 file = 'file_name'
-file = "chess_files/lichess_dorfys_2022-01-05.pgn"
-
 
 # Reads the file and assigns to the varaible 'text'
 with open(file) as f:
